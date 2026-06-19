@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Tolulope Praise Ajidahun — Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        charcoal: '#121212',
+                        luxuryBlack: '#0a0a0a',
+                        powderBlue: '#a9c2f0',
+                        inkGray: '#1e1e1e',
+                        mutedGray: '#8e8e93',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Cormorant Garamond', 'serif'],
+                    },
+                    letterSpacing: {
+                        superwide: '0.25em',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #f5f5f7;
+            overflow-x: hidden;
+        }
+        ::selection {
+            background-color: #a9c2f0;
+            color: #0a0a0a;
+        }
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0a0a0a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1e1e1e;
+            border-radius: 3px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #a9c2f0;
+        }
+        .nexus-node {
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body class="min-h-screen font-sans flex flex-col justify-between selection:bg-powderBlue selection:text-luxuryBlack">
+
+    <header class="border-b border-white/[0.06] backdrop-blur-md bg-luxuryBlack/80 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex flex-col">
+                <span class="font-serif text-xl tracking-wider font-semibold text-white">DR. TOLU</span>
+                <span class="text-[9px] tracking-superwide uppercase text-powderBlue font-light -mt-1">Clinical Architecture</span>
+            </div>
+            <nav class="hidden md:flex space-x-8 text-xs tracking-widest uppercase font-light text-mutedGray">
+                <a href="#nexus" class="hover:text-white transition-colors">The Nexus</a>
+                <a href="#services" class="hover:text-white transition-colors">Services</a>
+                <a href="#pricing" class="hover:text-white transition-colors">Pricing Deck</a>
+                <a href="#portfolio" class="hover:text-white transition-colors">Portfolio</a>
+            </nav>
+            <div>
+                <a 
+                    href="https://drive.google.com/file/d/16w_UFkdXy-zy5Exfunc44LfyM91zN5w5/view?usp=drive_link" 
+                    target="_blank"
+                    class="border border-white/20 px-4 py-2 text-xs tracking-widest uppercase hover:bg-white hover:text-luxuryBlack transition-all duration-300"
+                >
+                    Download CV
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        
+        <section id="nexus" class="relative min-h-[85vh] flex items-center border-b border-white/[0.06] py-12">
+            <div class="max-w-6xl mx-auto px-6 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
+                
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-block border border-powderBlue/30 px-3 py-1 text-[10px] tracking-superwide uppercase text-powderBlue bg-powderBlue/5">
+                        Active Practice & LLM Safety Engineering
+                    </div>
+                    <h1 class="font-serif text-4xl sm:text-5xl md:text-6xl tracking-tight leading-[1.1] font-light text-white">
+                        Where clinical precision meets <span className="italic font-normal text-powderBlue">architectural intelligence</span>.
+                    </h1>
+                    <p class="text-mutedGray font-light leading-relaxed max-w-xl text-sm sm:text-base">
+                        Dr. Tolulope Praise Ajidahun synthesizes frameworks across modern medicine, data annotation, and AI safety protocols. Building robust guardrails for clinical LLMs while outputting high-end medical content.
+                    </p>
+                    <div class="pt-4 flex flex-wrap gap-4">
+                        <a href="#services" class="bg-white text-luxuryBlack px-6 py-3 text-xs tracking-widest uppercase font-medium hover:bg-powderBlue transition-colors duration-300">
+                            Explore Capabilities
+                        </a>
+                        <a href="https://www.linkedin.com/in/tolulope-ajidahun-7b5b4424a/" target="_blank" class="border border-white/10 bg-white/5 backdrop-blur-sm px-6 py-3 text-xs tracking-widest uppercase font-light hover:border-white/40 transition-colors duration-300 flex items-center space-x-2">
+                            <span>Consultation Sync</span>
+                            <svg class="w-3 h-3 text-powderBlue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-5 relative flex flex-col items-center justify-center">
+                    <div class="w-full bg-charcoal/40 border border-white/[0.06] aspect-[4/3] p-4 relative overflow-hidden rounded-sm shadow-2xl backdrop-blur-sm">
+                        <div class="absolute top-3 left-4 flex items-center space-x-2">
+                            <span class="w-1.5 h-1.5 rounded-full bg-powderBlue animate-ping"></span>
+                            <span class="text-[9px] tracking-widest uppercase text-mutedGray">Interactive Clinical AI Engine</span>
+                        </div>
+                        
+                        <svg class="w-full h-full" viewBox="0 0 700 400">
+                            <defs>
+                                <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                                    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.02)" stroke-width="1" />
+                                </pattern>
+                            </defs>
+                            <rect width="100%" height="100%" fill="url(#grid)" />
+
+                            <g stroke="rgba(169, 194, 240, 0.15)" stroke-width="1" stroke-dasharray="4,4">
+                                <line x1="150" y1="80" x2="280" y2="220" />
+                                <line x1="450" y1="120" x2="280" y2="220" />
+                                <line x1="280" y1="220" x2="600" y2="280" />
+                                <line x1="280" y1="220" x2="180" y2="350" />
+                                <line x1="150" y1="80" x2="180" y2="350" />
+                            </g>
+
+                            <circle cx="150" cy="80" r="6" fill="#121212" stroke="#a9c2f0" stroke-width="2" class="nexus-node" data-title="Clinical Safety Logic" data-desc="Aligning generative frameworks with verified global medical guidelines." />
+                            <circle cx="450" cy="120" r="6" fill="#121212" stroke="#a9c2f0" stroke-width="2" class="nexus-node" data-title="Data Annotation Matrix" data-desc="Granular parsing, token safety, and labeling of complex biological data structures." />
+                            <circle cx="280" cy="220" r="6" fill="#121212" stroke="#a9c2f0" stroke-width="2" class="nexus-node" data-title="LLM Guardrail Protocol" data-desc="Configuring strict clinical parameters to entirely prevent automated health hallucinations." />
+                            <circle cx="600" cy="280" r="6" fill="#121212" stroke="#a9c2f0" stroke-width="2" class="nexus-node" data-title="High-Leverage Writing" class="nexus-node" data-title="High-Leverage Writing" data-desc="Translating dense pharmaceutical or healthtech documentation into elite corporate copy." />
+                            <circle cx="180" cy="350" r="6" fill="#121212" stroke="#a9c2f0" stroke-width="2" class="nexus-node" data-title="Domain Expert Validation" data-desc="Rigorous human-in-the-loop medical safely review pipelines." />
+                        </svg>
+
+                        <div id="node-feedback" class="absolute bottom-4 left-4 right-4 bg-luxuryBlack/90 border border-white/[0.08] p-3 min-h-[70px] flex flex-col justify-center transition-all duration-200">
+                            <div class="text-center">
+                                <p class="text-[11px] text-mutedGray/60 italic font-light">Hover system parameters to trace data flow paths</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="services" class="py-24 border-b border-white/[0.06] bg-charcoal/20">
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="text-center space-y-3 mb-16">
+                    <span class="text-[10px] tracking-superwide uppercase text-powderBlue">Functional Core</span>
+                    <h2 class="font-serif text-3xl md:text-4xl font-light text-white">Operational Domains</h2>
+                    
+                    <div class="flex justify-center pt-6">
+                        <div class="inline-flex p-1 bg-luxuryBlack border border-white/[0.08]">
+                            <button id="tab-safety" onclick="switchTab('safety')" class="px-6 py-2.5 text-xs tracking-widest uppercase bg-white text-luxuryBlack font-medium transition-all duration-300">
+                                AI Clinical Safety
+                            </button>
+                            <button id="tab-writing" onclick="switchTab('writing')" class="px-6 py-2.5 text-xs tracking-widest uppercase text-mutedGray hover:text-white transition-all duration-300">
+                                Medical Content Architecture
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="content-safety" class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+                    <div class="border border-white/[0.06] bg-luxuryBlack p-8 space-y-4 hover:border-powderBlue/40 transition-all duration-300 flex flex-col justify-between">
+                        <div class="space-y-4">
+                            <div class="w-8 h-8 border border-powderBlue/30 flex items-center justify-center text-powderBlue text-xs">01</div>
+                            <h3 class="font-serif text-xl font-light text-white">LLM Safety Tuning</h3>
+                            <p class="text-xs font-light text-mutedGray leading-relaxed">Systematic refinement and alignment testing of specialized neural models against live clinical matrices to guarantee output verification metrics.</p>
+                        </div>
+                        <span class="text-[10px] tracking-widest text-powderBlue uppercase pt-4 block">Reinforcement Logic</span>
+                    </div>
+                    <div class="border border-white/[0.06] bg-luxuryBlack p-8 space-y-4 hover:border-powderBlue/40 transition-all duration-300 flex flex-col justify-between">
+                        <div class="space-y-4">
+                            <div class="w-8 h-8 border border-powderBlue/30 flex items-center justify-center text-powderBlue text-xs">02</div>
+                            <h3 class="font-serif text-xl font-light text-white">Expert Annotation</h3>
+                            <p class="text-xs font-light text-mutedGray leading-relaxed">High-density categorization and semantic tagging of medical documentation to configure flawless deep gold-standard training parameters.</p>
+                        </div>
+                        <span class="text-[10px] tracking-widest text-powderBlue uppercase pt-4 block">Ground-Truth Optimization</span>
+                    </div>
+                    <div class="border border-white/[0.06] bg-luxuryBlack p-8 space-y-4 hover:border-powderBlue/40 transition-all duration-300 flex flex-col justify-between">
+                        <div class="space-y-4">
+                            <div class="w-8 h-8 border border-powderBlue/30 flex items-center justify-center text-powderBlue text-xs">03</div>
+                            <h3 class="font-serif text-xl font-light text-white">Hallucination Mitigation</h3>
+                            <p class="text-xs font-light text-mutedGray leading-relaxed">Designing strict prompt pipeline boundaries and adversarial safety evaluation setups to block clinical errors long before execution.</p>
+                        </div>
+                        <span class="text-[10px] tracking-widest text-powderBlue uppercase pt-4 block">Systemic Guardrails</span>
+                    </div>
+                </div>
+
+                <div id="content-writing" class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch hidden">
+                    <div class="border border-white/[0.06] bg-luxuryBlack p-8 space-y-4 hover:border-powderBlue/40 transition-all duration-300 flex flex-col justify-between">
+                        <div class="space-y-4">
+                            <div class="w-8 h-8 border border-powderBlue/30 flex items-center justify-center text-powderBlue text-xs">01</div>
+                            <h3 class="font-serif text-xl font-light text-white">Clinical Reporting</h3>
+                            <p class="text-xs font-light text-mutedGray leading-relaxed">Translating complex biotechnology metrics or multi-cohort clinical analytics into pristine, corporate-ready white papers and white-label documents.</p>
+                        </div>
+                        <span class="text-[10px] tracking-widest text-powderBlue uppercase pt-4 block">Precision Content</span>
+                    </div>
+                    <div class="border border-white/[0.06] bg-luxuryBlack p-8 space-y-4 hover:border-powderBlue/40 transition-all duration-300 flex flex-col justify-between">
+                        <div class="space-y-4">
+                            <div class="w-8 h-8 border border-powderBlue/30 flex items-center justify-center text-powderBlue text-xs">02</div>
+                            <h3 class="font-serif text-xl font-light text-white">B2B Health Editing</h3>
+                            <p class="text-xs font-light text-mutedGray leading-relaxed">Substantive structural engineering across digital health platforms to cleanly bring specialized medical systems into regulatory formatting harmony.</p>
+                        </div>
+                        <span class="text-[10px] tracking-widest text-powderBlue uppercase pt-4 block">Editorial Strategy</span>
+                    </div>
+                    <div class="border border-white/[0.06] bg-luxuryBlack p-8 space-y-4 hover:border-powderBlue/40 transition-all duration-300 flex flex-col justify-between">
+                        <div class="space-y-4">
+                            <div class="w-8 h-8 border border-powderBlue/30 flex items-center justify-center text-powderBlue text-xs">03</div>
+                            <h3 class="font-serif text-xl font-light text-white">Digital Health Copy</h3>
+                            <p class="text-xs font-light text-mutedGray leading-relaxed">Forging luxury brand-aligned technical descriptions for digital health ecosystems demanding ironclad medical precision paired with deep narrative weight.</p>
+                        </div>
+                        <span class="text-[10px] tracking-widest text-powderBlue uppercase pt-4 block">Brand Architecture</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="pricing" class="py-24 border-b border-white/[0.06]">
+            <div class="max-w-4xl mx-auto px-6">
+                <div class="text-center space-y-3 mb-12">
+                    <span class="text-[10px] tracking-superwide uppercase text-powderBlue">Interactive Matrix</span>
+                    <h2 class="font-serif text-3xl font-light text-white">Scope & Pricing Configurator</h2>
+                    <p class="text-xs text-mutedGray font-light max-w-md mx-auto">Dynamically slide the scale indicator to compute framework footprints mapped to your project specifications.</p>
+                </div>
+
+                <div class="bg-charcoal border border-white/[0.06] p-8 md:p-12 space-y-8 backdrop-blur-sm relative">
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center text-xs tracking-widest text-mutedGray uppercase">
+                            <span>Project Volume Indicator</span>
+                            <span id="volume-level" class="text-powderBlue font-medium">Scale Scale: Level 3 / 5</span>
+                        </div>
+                        <input 
+                            type="range" 
+                            min="1" 
+                            max="5" 
+                            value="3" 
+                            id="volume-slider"
+                            oninput="updatePricing()"
+                            class="w-full accent-powderBlue h-1 bg-luxuryBlack cursor-pointer"
+                        />
+                        <div class="flex justify-between text-[10px] tracking-wider text-mutedGray/40">
+                            <span>Ad-hoc / Sprint Audit</span>
+                            <span>Comprehensive Retainer Framework</span>
+                        </div>
+                    </div>
+
+                    <hr class="border-white/[0.06]" />
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                        <div class="space-y-3">
+                            <span class="text-[9px] tracking-superwide uppercase text-powderBlue font-medium bg-powderBlue/10 border border-powderBlue/20 px-2 py-0.5">Calculated Framework Configuration</span>
+                            <h3 id="pricing-title" class="font-serif text-2xl font-light text-white">Clinical Safety & Annotation Retainer</h3>
+                            <p class="text-xs font-light text-mutedGray leading-relaxed">
+                                Custom architecture mapped directly to this footprint. Includes technical deployment documentation, direct verification cycles, and human-in-the-loop expert validation.
+                            </p>
+                            <div class="text-xs text-mutedGray font-light pt-2">
+                                <span class="text-white font-medium">Estimated Sprints: </span> <span id="pricing-timeline">1-2 Weeks</span>
+                            </div>
+                        </div>
+
+                        <div class="bg-luxuryBlack border border-white/[0.06] p-6 text-center space-y-2">
+                            <span class="text-[10px] tracking-widest uppercase text-mutedGray block">Investment Baseline</span>
+                            <div id="pricing-cost" class="font-serif text-4xl font-light text-white tracking-tight">
+                                $1,350<span class="text-xs text-mutedGray font-sans tracking-normal font-light">/mo</span>
+                            </div>
+                            <div id="pricing-unit" class="text-[10px] text-powderBlue uppercase tracking-wider font-light">
+                                Includes roughly 30 Hours / Month equivalent
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-4 text-center">
+                        <a href="https://www.linkedin.com/in/tolulope-ajidahun-7b5b4424a/" target="_blank" class="inline-block w-full text-center border border-white/20 px-6 py-3 text-xs tracking-widest uppercase font-medium hover:bg-white hover:text-luxuryBlack transition-all duration-300">
+                            Lock in this Project Configuration
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="py-24 max-w-6xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+            <div class="lg:col-span-5 space-y-6">
+                <div class="border border-white/[0.06] bg-charcoal/50 p-4 relative">
+                    <div class="aspect-[3/4] bg-luxuryBlack border border-white/[0.04] flex flex-col items-center justify-center text-center p-6 relative overflow-hidden">
+                        <div class="absolute inset-0 opacity-10 flex items-center justify-center">
+                            <svg class="w-full h-full stroke-white" fill="none" viewBox="0 0 100 100">
+                                <line x1="0" y1="0" x2="100" y2="100" />
+                                <line x1="100" y1="0" x2="0" y2="100" />
+                                <circle cx="50" cy="50" r="30" />
+                            </svg>
+                        </div>
+                        
+                        <span class="font-serif italic text-2xl text-white/90 z-10">Dr. Tolulope Praise Ajidahun</span>
+                        <p class="text-[10px] tracking-superwide uppercase text-mutedGray mt-2 max-w-xs z-10">Visual Portrait & Professional Identity</p>
+                        
+                        <a 
+                            href="https://drive.google.com/file/d/1GNf2_LSA5XAlU1YuDo7DhWntfEjz6mKK/view?usp=drive_link" 
+                            target="_blank"
+                            class="mt-8 border border-powderBlue/40 px-4 py-2 text-[10px] tracking-widest text-powderBlue uppercase hover:bg-powderBlue hover:text-luxuryBlack transition-all duration-300 z-10"
+                        >
+                            View Verification Source
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:col-span-7 space-y-8">
+                <div class="space-y-2">
+                    <span class="text-[10px] tracking-superwide uppercase text-powderBlue">Resource Index</span>
+                    <h2 class="font-serif text-3xl font-light text-white">Verified Documentation</h2>
+                </div>
+
+                <div class="space-y-4">
+                    <a href="https://docs.google.com/document/d/1_henu_yYFsTX9MWSxk3ByYuFSnaDm00RUaJOw3qHtP8/edit?usp=drive_link" target="_blank" class="block border border-white/[0.06] bg-luxuryBlack p-6 hover:border-white/20 transition-all duration-300 group">
+                        <div class="flex justify-between items-center">
+                            <div class="space-y-1">
+                                <span class="text-[9px] uppercase tracking-widest text-powderBlue">Clinical Archive</span>
+                                <h4 class="text-sm font-medium text-white tracking-wide group-hover:text-powderBlue transition-colors">Featured Scientific / Technical Case Samples</h4>
+                            </div>
+                            <svg class="w-4 h-4 text-mutedGray group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5l7 7-7 7"></path></svg>
+                        </div>
+                    </a>
+
+                    <a href="https://drive.google.com/file/d/16w_UFkdXy-zy5Exfunc44LfyM91zN5w5/view?usp=drive_link" target="_blank" class="block border border-white/[0.06] bg-luxuryBlack p-6 hover:border-white/20 transition-all duration-300 group">
+                        <div class="flex justify-between items-center">
+                            <div class="space-y-1">
+                                <span class="text-[9px] uppercase tracking-widest text-powderBlue">Curriculum Vitae</span>
+                                <h4 class="text-sm font-medium text-white tracking-wide group-hover:text-powderBlue transition-colors">Medical Background & Leadership Credentials</h4>
+                            </div>
+                            <svg class="w-4 h-4 text-mutedGray group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5l7 7-7 7"></path></svg>
+                        </div>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/tolulope-ajidahun-7b5b4424a/" target="_blank" class="block border border-white/[0.06] bg-luxuryBlack p-6 hover:border-white/20 transition-all duration-300 group">
+                        <div class="flex justify-between items-center">
+                            <div class="space-y-1">
+                                <span class="text-[9px] uppercase tracking-widest text-powderBlue">Corporate Grid</span>
+                                <h4 class="text-sm font-medium text-white tracking-wide group-hover:text-powderBlue transition-colors">LinkedIn Network Profile Access</h4>
+                            </div>
+                            <svg class="w-4 h-4 text-mutedGray group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5l7 7-7 7"></path></svg>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="pt-6 border-t border-white/[0.06] space-y-4">
+                    <h4 class="text-xs uppercase tracking-widest font-medium text-white">Direct Transmission Secure Line</h4>
+                    <p class="text-xs font-light text-mutedGray">For specialized safety annotation sprints or clinical content retainers, tap below to route contact information.</p>
+                    <div class="bg-luxuryBlack border border-white/[0.06] p-4 flex items-center justify-between">
+                        <span class="text-xs font-mono text-white tracking-wide">dr.tolu.ajidahun@gmail.com</span>
+                        <button id="copy-btn" class="text-[10px] tracking-widest text-powderBlue uppercase hover:text-white transition-colors">Copy Loop</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="border-t border-white/[0.06] py-12 bg-luxuryBlack text-center text-mutedGray text-[10px] tracking-superwide uppercase font-light">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <span>© 2026 Dr. Tolulope Praise Ajidahun. All Rights Reserved.</span>
+            <div class="flex space-x-6">
+                <a href="https://www.linkedin.com/in/tolulope-ajidahun-7b5b4424a/" target="_blank" class="hover:text-white transition-colors">LinkedIn</a>
+                <a href="https://drive.google.com/file/d/16w_UFkdXy-zy5Exfunc44LfyM91zN5w5/view?usp=drive_link" target="_blank" class="hover:text-white transition-colors">Resume</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let currentTab = 'safety';
+
+        // 1. Interactive SVG Hover Triggers
+        document.querySelectorAll('.nexus-node').forEach(node => {
+            node.addEventListener('mouseenter', (e) => {
+                const title = e.target.getAttribute('data-title');
+                const desc = e.target.getAttribute('data-desc');
+                document.getElementById('node-feedback').innerHTML = `
+                    <div>
+                        <h4 class="text-xs font-medium tracking-wide text-powderBlue">${title}</h4>
+                        <p class="text-[11px] text-mutedGray font-light mt-0.5 leading-relaxed">${desc}</p>
+                    </div>
+                `;
+                e.target.setAttribute('r', '10');
+                e.target.style.fill = '#a9c2f0';
+            });
+            node.addEventListener('mouseleave', (e) => {
+                document.getElementById('node-feedback').innerHTML = `
+                    <div class="text-center">
+                        <p class="text-[11px] text-mutedGray/60 italic font-light">Hover system parameters to trace data flow paths</p>
+                    </div>
+                `;
+                e.target.setAttribute('r', '6');
+                e.target.style.fill = '#121212';
+            });
+        });
+
+        // 2. Tab Context Switcher Logic
+        function switchTab(tab) {
+            currentTab = tab;
+            const btnSafety = document.getElementById('tab-safety');
+            const btnWriting = document.getElementById('tab-writing');
+            const contentSafety = document.getElementById('content-safety');
+            const contentWriting = document.getElementById('content-writing');
+
+            if (tab === 'safety') {
+                btnSafety.className = "px-6 py-2.5 text-xs tracking-widest uppercase bg-white text-luxuryBlack font-medium transition-all duration-300";
+                btnWriting.className = "px-6 py-2.5 text-xs tracking-widest uppercase text-mutedGray hover:text-white transition-all duration-300";
+                contentSafety.classList.remove('hidden');
+                contentWriting.classList.add('hidden');
+            } else {
+                btnWriting.className = "px-6 py-2.5 text-xs tracking-widest uppercase bg-white text-luxuryBlack font-medium transition-all duration-300";
+                btnSafety.className = "px-6 py-2.5 text-xs tracking-widest uppercase text-mutedGray hover:text-white transition-all duration-300";
+                contentWriting.classList.remove('hidden');
+                contentSafety.classList.add('hidden');
+            }
+            updatePricing();
+        }
+
+        // 3. Dynamic Calculation Matrix
+        function updatePricing() {
+            const slider = document.getElementById('volume-slider');
+            const volume = parseInt(slider.value);
+            
+            document.getElementById('volume-level').textContent = `Scale Scale: Level ${volume} / 5`;
+            
+            let title = "";
+            let multiplier = 0;
+            let unitWord = "";
+            
+            if (currentTab === 'safety') {
+                title = "Clinical Safety & Annotation Retainer";
+                multiplier = 450;
+                unitWord = "Hours / Month equivalent";
+            } else {
+                title = "Premium Medical Architecture Suite";
+                multiplier = 350;
+                unitWord = "Complex Deliverables / Scope";
+            }
+            
+            const cost = volume * multiplier;
+            const timeline = volume <= 2 ? "3-5 Business Days" : volume <= 4 ? "1-2 Weeks" : "Custom Distributed Sprint";
+            
+            document.getElementById('pricing-title').textContent = title;
+            document.getElementById('pricing-cost').innerHTML = `$${cost.toLocaleString()}<span class="text-xs text-mutedGray font-sans tracking-normal font-light">/mo</span>`;
+            document.getElementById('pricing-unit').textContent = `Includes roughly ${volume * 10} ${unitWord}`;
+            document.getElementById('pricing-timeline').textContent = timeline;
+        }
+
+        // 4. Secure Transmission Copy Protocol
+        document.getElementById('copy-btn').addEventListener('click', () => {
+            navigator.clipboard.writeText("dr.tolu.ajidahun@gmail.com");
+            const btn = document.getElementById('copy-btn');
+            btn.textContent = "Copied";
+            setTimeout(() => { btn.textContent = "Copy Loop"; }, 2000);
+        });
+    </script>
+</body>
+</html>
